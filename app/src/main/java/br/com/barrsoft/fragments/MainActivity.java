@@ -30,6 +30,7 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         ButterKnife.bind(this);
+        getSupportActionBar().setElevation(0);
 
         aFragment = new AFragment();
         bFragment = new BFragment();
